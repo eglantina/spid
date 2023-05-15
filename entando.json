@@ -1,0 +1,28 @@
+{
+    "microservices": [
+        {
+            "name": "spid-ms",
+            "stack": "spring-boot",
+            "healthCheckPath": "/api/health"
+        }
+    ],
+    "microfrontends": [
+        {
+            "name": "spid-mfe",
+            "customElement": "spid-mfe",
+            "stack": "react",
+            "type": "widget",
+            "group": "free",
+            "publicFolder": "public",
+            "titles": {
+                "en": "spid-mfe",
+                "it": "spid-mfe"
+            }
+        }
+    ],
+    "svc": [],
+    "name": "spid-bundle",
+    "version": "0.0.1",
+    "description": "spid-bundle description",
+    "type": "bundle"
+}
